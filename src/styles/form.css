@@ -1,0 +1,179 @@
+.form-content,
+.form-body {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 100%;
+}
+
+.form-content {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 2px lightgray;
+    padding: 30px;
+}
+
+.form-header {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.form-body label {
+    text-transform: uppercase;
+    font-size: .7rem;
+    font-weight: bold;
+    color: var(--input-label-color)
+}
+
+.form-body h3 {
+    text-align: left;
+    color: var(--form-section-title-color)
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form h2 {
+	border-bottom: none;	
+}
+
+
+.form-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid grey;
+}
+
+.control-btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 10px;
+}
+
+.add-btn,
+.add-sub-btn,
+.collapse-btn,
+.delete-btn {
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: var(--add-btn-color);
+}
+
+.add-sub-btn {
+    background-color: var(--add-sub-btn-color);
+    border: 2px dashed var(--add-btn-color);
+    color: var(--add-btn-color)
+}
+
+.collapse-btn {
+    background-color: white;
+    color: black;
+}
+
+.delete-btn {
+    background-color: var(--delete-btn-color);
+}
+
+.delete-btn.edu-sub-section,
+.delete-btn.additional {
+    height: 33.6px;
+}
+
+.info-field,
+.experience-fields,
+.experience-field,
+.education-fields,
+.education-field,
+.education-sub-section-field,
+.additional-inputs-child-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+}
+
+.experience-fields,
+.education-fields {
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.experience-dates-field {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.job-description-component,
+.education-sub-section,
+.additional-item  {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.education-sub-section,
+.additional-item {
+    align-items: flex-end;
+}
+
+.job-description-bullet {
+    flex-grow: 1;
+}
+
+#additional-inputs-parent-container {
+    display: flex;
+    gap: 10px;
+}
+
+#education-sub-section-field-content,
+#additional-inputs-child-container-content {
+    flex-grow: 2;
+}
+
+#no-job-description-added,
+#no-subsection-added {
+    text-align: center;
+    font-size: .8rem;
+    padding: 2px;
+}
+
+.collapsed-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 0 5px 2px rgb(213, 213, 213);
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.collapsed-div > .control-btns {
+    padding-right: 0px;
+}
+
+.placeholder-title {
+    text-align: left;
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+}

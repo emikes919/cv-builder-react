@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: rgb(228, 228, 228);
+}
+
+:root {
+	--form-font: 'Inter', sans-serif;
+	--input-label-color: grey;
+	--form-section-title-color: rgb(69, 69, 69);
+	--add-btn-color: #009dffee;
+	--add-sub-btn-color: white;
+	--delete-btn-color: #C00000;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 2.5rem;
+	box-shadow: 0 -5px 10px black;
+	background-color: #505050;
+	color: white;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 1030;
+}
+
+.content {
+	display: flex;
+	position: relative;
+	top: 88px;
+	height: 90%;
+}
+
+.form,
+.output {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+	text-align: center;
+	padding: 25px;
+	flex-grow: 1;
+	max-width: 50%;
+	overflow-y: scroll;
+}
+
+.header,
+.form {
+	font-family: var(--form-font);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

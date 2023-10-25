@@ -1,0 +1,113 @@
+#output-instructional-text {
+	text-align: right;
+	width: 816px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+#dimensions-text {
+	margin-bottom: 10px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pdf-btn {
+	padding: 10px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px black;
+	background-color: white;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+#pdf-btn:active {
+	transform: scale(90%);
+}
+
+.fa {
+	font-size: 20px;
+}
+
+.output-page {
+	background-color: white;
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-height: 1056px;
+	width: 816px;
+}
+
+.output-header-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.output-header {
+	font-weight: bold;
+}
+
+h2 {
+	text-align: left;
+	border-bottom: solid 1px black;
+}
+
+.output-main-content {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.output-experience,
+.output-education,
+.output-additional {
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+}
+
+.output-experience-name-location-container,
+.output-experience-position-dates-container,
+.output-education-name-location-container,
+.output-education-degree-date-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.output-experience-content-item,
+.output-education-content-item {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.output-experience-content-stats {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.output-additional-content-item {
+	text-align: left;
+}
+
+.output-job-description-list,
+.output-education-subsection-list {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+}
+
+.output-job-description-list {
+	padding-left: 20px;
+	list-style-type: disc;
+}
+
+#output-additional-list {
+	gap: 5px
+}
