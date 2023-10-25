@@ -65,9 +65,8 @@ body {
 	align-items: center;
 	gap: 20px;
 	text-align: center;
-	padding: 25px;
+	padding: 40px;
 	flex-grow: 1;
-	max-width: 50%;
 	overflow-y: scroll;
 }
 
